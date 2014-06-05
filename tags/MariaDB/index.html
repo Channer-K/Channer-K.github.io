@@ -16,6 +16,7 @@
   <script src="//cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
   <script src="/js/imgLiquid-min.js"></script>
   <script src="/js/social-likes.min.js"></script>
+  <script src="/js/post.js"></script>
 </head>
 
 <body>
@@ -32,7 +33,7 @@
   </div>
   <div class="setting">
     <a href="//readme.org.cn/" class="btn-profile">Profile</a>
-    <a href="/" class="btn-photos">Photos</a>
+    <!-- <a href="/" class="btn-photos">Photos</a> -->
     <a href="/" class="btn-follow">Follow me</a>
   </div>
 </div>
@@ -46,11 +47,11 @@
 
     <div class="post box nocover">
       <em class="date"><span>05</span>6月</em>
-      <h2 class="post-title"><a href="/2014/06/05/Compiling-MariaDB-10-on-Centos64/">Compiling-MariaDB-10-on-Centos6.4</a></h2>
-      <div class="post-content">&#x4E3A;&#x7CFB;&#x7EDF;&#x505A;&#x597D;&#x7F16;&#x8BD1;&#x51C6;&#x5907;
+      <h1 class="post-title"><a href="/2014/06/05/Compiling-MariaDB-10-on-Centos64/">CentOS 6.4下编译安装MariaDB10</a></h1>
+      <div class="post-content pre-post">&#x4E3A;&#x7CFB;&#x7EDF;&#x505A;&#x597D;&#x7F16;&#x8BD1;&#x51C6;&#x5907;
 &#x5728;&#x5B89;&#x88C5;&#x4E4B;&#x524D;&#x9700;&#x8981;&#x5230;MariaDB&#x7684;&#x5B98;&#x7F51;&#x4E0B;&#x8F7D;&#x6240;&#x9700;&#x7684;&#x6E90;&#x7801;&#x5305;mariadb-10.0.11.tar.gz
 &#x5B89;&#x88C5;&#x4F9D;&#x8D56;
-&#x5B98;&#x7F51;&#x7ED9;&#x51FA;&#x4EE5;&#x4E0B;&#x4F9D;&#x8D56;&#x7A0B;&#x5E8F;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;
+&#x5B98;&#x7F51;&#x7ED9;&#x51FA;&#x4EE5;&#x4E0B;&#x4F9D;&#x8D56;&#x7A0B;&#x5E8F;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x5B89;&#x88C5;&#x524D;&#x628A;&#x4E0B;&#x5217;&#x7A0B;&#x5E8F;&#x90FD;&#x5B89;&#x88C5;&#x4E86;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x7B49;&#x7F16;&#x8BD1;&#x51FA;&#x9519;&#x7684;&#x65F6;&#x5019;
       </div>
 
       <div class="bottom-panel">
@@ -81,6 +82,8 @@
   <h3 class="title">Tags</h3>
   <div style="text-align:center">
     
+    <a class="button" href="/tags/Linux/">Linux</a>
+    
     <a class="button" href="/tags/MariaDB/">MariaDB</a>
     
     <a class="button" href="/tags/数据库/">数据库</a>
@@ -90,7 +93,7 @@
 </div>
 
 
-<div class="tagcloud" id="fbox-tagcloud" style="margin:10px; display:none; overflow: hidden"><a href="/tags/MariaDB/" style="font-size: NaNpx;">MariaDB</a><a href="/tags/数据库/" style="font-size: NaNpx;">数据库</a></div>
+<div class="tagcloud" id="fbox-tagcloud" style="margin:10px; display:none; overflow: hidden"><a href="/tags/Linux/" style="font-size: NaNpx;">Linux</a><a href="/tags/MariaDB/" style="font-size: NaNpx;">MariaDB</a><a href="/tags/数据库/" style="font-size: NaNpx;">数据库</a></div>
 
     
 
@@ -100,11 +103,15 @@
 <ul class="widget blogroll">
   <h3 class="title">Recent Post</h3>
   
-    
     <li>
       <div class="text-holder">
-        <h3 class="link-title"><a href="/2014/06/05/Compiling-MariaDB-10-on-Centos64/">Compiling-MariaDB-10-on-Centos6.4</a></h3>
-        <p>&#x4E3A;&#x7CFB;&#x7EDF;&#x505A;&#x597D;&#x7F16;&#</p>
+        <span class="link-title"><a href="/2014/06/05/How-to-distribute-your-software-more-easily-with-RPM-1/">自制RPM安装包-1</a></span>
+      </div>
+    </li>
+  
+    <li>
+      <div class="text-holder">
+        <span class="link-title"><a href="/2014/06/05/Compiling-MariaDB-10-on-Centos64/">CentOS 6.4下编译安装MariaDB10</a></span>
       </div>
     </li>
   
@@ -171,6 +178,7 @@ $(document).ready(function() {
   });
 })(jQuery);
 </script>
+<script src="/js/post.js"></script>
 
 </body>
 </html>
