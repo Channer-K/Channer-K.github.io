@@ -81,9 +81,8 @@ $(document).ready(function(){
                 timers[uniqueId] = setTimeout(callback, ms);
             };
         })();
-        
-        if($('.post-content h2').length > 2){
 
+        if($('.post-content h2').length > 2){
             genIndex();
 
             $(window).load(function(){
@@ -105,15 +104,15 @@ $(document).ready(function(){
 
                         if(nowTop+20 > menuIndexTop){
                             $('#menuIndex').css({
-                                position:'fixed'
-                                ,top:'20px'
-                                ,left:menuIndexLeft
+                                position:'fixed',
+                                top:'20px',
+                                left:menuIndexLeft
                             });
                         }else{
                             $('#menuIndex').css({
-                                position:'static'
-                                ,top:0
-                                ,left:0
+                                position:'static',
+                                top:0,
+                                left:0
                             });
                         }
 
@@ -134,9 +133,9 @@ $(document).ready(function(){
 
                 $(window).resize(function(){
                     $('#menuIndex').css({
-                        position:'static'
-                        ,top:0
-                        ,left:0
+                        position:'static',
+                        top:0,
+                        left:0
                     });
 
                     menuIndexTop = $('#menuIndex').offset().top;
